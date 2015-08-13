@@ -1,19 +1,49 @@
-.like {
-  color: red;
-}
-.dislike{
-    color:blue;
-}
-p.dislike:hover {
-  color: red;
-}
-p.like:hover {
-  color: green;
-}
-body {
-  background-color: #ddd;
-  font-size: 14px;
-}
 nav ul li {
   display: inline-block;
 }
+nav {
+  text-align: right;
+  
+}
+.navbar {
+        border-radius: 0; 
+      }
+      
+      .row {
+        margin-bottom: 50px;
+      }
+       body {
+        font-size: 14px;
+      }
+      
+      .navbar {
+        border-radius: 0; 
+      }
+      
+      .row {
+        margin-bottom: 50px;
+      }
+      
+      .icon {
+        text-align: center;
+      }
+      
+      .icon .glyphicon {
+        margin-bottom: 10px;
+        font-size: 40px;
+        color: #777;
+      }
+      
+      .content h2 {
+        margin-top: 0;
+        padding-bottom: 15px;
+      }
+      .content p {
+        margin-bottom: 30px;
+      }
+      
+      footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
